@@ -1,0 +1,51 @@
+.content{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+}
+.content__img > img{
+    height: 150px;
+    margin-right: 20px;
+}
+.content__rating{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content__rating > img{
+    height: 30px;
+    margin-right: 20px;
+}
+
+.content__description > h4 > span{
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.content__rating > p{
+    display: inline;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.content__rating > h2 {
+    display: inline;
+    margin-right: 10px;
+}
+
+.content__description__below{
+    margin-top: 30px;
+}
+.content__description__below > p {
+    display: inline;
+    color: grey;
+    font-size: 13px;
+}
+.content__description__below > p > span {
+    color: black;
+    font-weight: 600;
+}
+.content__description__below > p:first-child{
+    margin-right: 40px;
+}

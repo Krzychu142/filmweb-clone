@@ -1,10 +1,16 @@
-import Counter from "./features/counter/Counter";
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="App">
-      <Counter />
-    </main>
+    <>
+      <Header />
+      <Content />
+      <Content />
+      <Content />
+      <Footer />
+    </>
   );
 }
 
